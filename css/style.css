@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-header {
+    display: flex;
+}
+
+header nav {
+    display: flex;
+    padding-right: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    padding-left: 30px;
+    margin-right: 2px;
+    font-size: 1.2em;
+}
