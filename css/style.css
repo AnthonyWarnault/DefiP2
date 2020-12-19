@@ -148,3 +148,44 @@ header nav li {
     color: rgb(83, 83, 83);
     font-weight: 300;
 }
+
+/* ----- FOOTER ----- */
+
+footer {
+    background-color: #5b359d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nom {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.reseaux-sociaux i {
+    color: rgba(255, 255, 255, 0.712);
+    font-size: 2em;
+    margin: 0px 40px 0px 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.info p {
+    color: rgba(255, 255, 255, 0.712)
+}
+
+.info ul {
+    color: white;
+}
+
+#description {
+    color: white;
+    padding-left: 30px;
+}
